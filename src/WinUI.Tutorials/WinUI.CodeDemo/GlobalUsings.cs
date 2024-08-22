@@ -1,0 +1,12 @@
+﻿global using CommunityToolkit.Mvvm.ComponentModel;
+global using CommunityToolkit.Mvvm.Input;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.UI;
+global using Microsoft.UI.Xaml;
+global using Microsoft.UI.Xaml.Controls;
+global using Microsoft.UI.Xaml.Navigation;
+global using WinUI.CodeDemo.Common;
+global using WinUI.CodeDemo.ViewModels;
+global using WinUI.CodeDemo.Views;
+global using WinUICommunity;
+global using static WinUI.CodeDemo.Common.AppHelper;

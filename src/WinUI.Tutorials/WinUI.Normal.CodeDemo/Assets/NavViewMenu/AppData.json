@@ -1,0 +1,23 @@
+﻿{
+  "Groups": [
+    {
+      "UniqueId": "WinUI.Normal.CodeDemo",
+      "Title": "WinUI.Normal.CodeDemo",
+      "ImagePath": "ms-appx:///Assets/icon.png",
+      "ImageIconPath": "ms-appx:///Assets/icon.png",
+      "IsSpecialSection": false,
+      "ShowItemsWithoutGroup": true,
+      "IsExpanded": false,
+      "Items": [
+        {
+          "UniqueId": "WinUI.Normal.CodeDemo.Views.HomeLandingPage",
+          "Title": "WinUI.Normal.CodeDemo",
+          "Subtitle": "WinUI.Normal.CodeDemo",
+          "ImagePath": "ms-appx:///Assets/icon.png",
+          "ImageIconPath": "ms-appx:///Assets/icon.png",
+          "HideItem": true
+        }
+      ]
+    }
+  ]
+}
