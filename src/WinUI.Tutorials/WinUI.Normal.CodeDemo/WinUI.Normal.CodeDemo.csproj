@@ -32,6 +32,10 @@
   </Content>
 </ItemGroup>
 
+<ItemGroup>
+  <None Remove="Views\WatermarkPage.xaml" />
+</ItemGroup>
+
   <ItemGroup>
     <Manifest Include="$(ApplicationManifest)" />
   </ItemGroup>
@@ -50,6 +54,11 @@
     <PackageReference Include="WinUICommunity.Components" Version="6.9.0" />
     <PackageReference Include="WinUICommunity.Core" Version="6.9.0" />
     <PackageReference Include="WinUICommunity.LandingPages" Version="6.9.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Views\WatermarkPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
 
   <!-- 
